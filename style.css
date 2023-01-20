@@ -13,3 +13,9 @@ footer{
     background-color: black;
     color: white;
 }
+.footer-image-container{
+    margin-bottom: 10% !important;
+}
+.footer-image{
+    margin-left: 30% !important;
+}
