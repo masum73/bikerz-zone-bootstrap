@@ -10,6 +10,8 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- font awesome CDN added -->
+    <script src="https://kit.fontawesome.com/0b6d34a4f7.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="container-lg">
@@ -38,7 +40,7 @@
                             <a class="nav-link fw-semibold" href="#">Blogs</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-success" type="submit">Login</button>
                 </div>
             </div>
         </nav>
@@ -54,7 +56,7 @@
                                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                                     officia consequat duis enim velit mollit.
                                 </p>
-                                <button class="btn btn-danger">Purchase</button>
+                                <button class="btn btn-bz-danger">Purchase</button>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
@@ -171,8 +173,123 @@
         </section>
         
         <!-- happy clients -->
-        <section>
-            
+        <section class="mt-5">
+            <h1 class="text-start text-md-center mb-5">Happy <span class="text-warning">Clients</span></h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card text-center h-100">
+                    <img src="images/user-1.png" class="card-img-top w-50 mx-auto mt-3" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </p>
+                      <h1 class="text-primary">Mick Costa</h1>
+                      <h3 class="text-success">Banker, Boston</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center h-100">
+                    <img src="images/user-2.png" class="card-img-top w-50 mx-auto mt-3" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </p>
+                      <h1 class="text-primary">Mick Costa</h1>
+                      <h3 class="text-success">Banker, Boston</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card text-center h-100">
+                    <img src="images/user-3.png" class="card-img-top w-50 mx-auto mt-3" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </p>
+                      <h1 class="text-primary">Mick Costa</h1>
+                      <h3 class="text-success">Banker, Boston</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="mt-5 py-5 px-3 bg-secondary-subtle rounded-2">
+            <h1 class="my-5 text-center">Frequently Asked <span class="text-warning">Questions</span></h1>
+            <div class="row row-cols-1 row-cols-md-2 mt-5 g-4">
+                <div class="col text-center">
+                    <img class="w-50" src="images/faq.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="accordion acc-accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              What’s the difference between event design and event planning? 
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              How early do we need to start planning an event?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What is your refund and cancellation policy?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              How do you keep budgets on track?
+                            </button>
+                          </h2>
+                          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </section>
     <footer>
 

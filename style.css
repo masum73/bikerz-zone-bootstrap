@@ -1,3 +1,11 @@
 .bz-slider-icon-color{
     background-color: rgba(230, 108, 108, 0.582);
 }
+
+.btn-bz-danger{
+    background-color: rgb(219, 125, 125);
+    color: white;
+}
+.w-25{
+    width: 50% !important;
+}
