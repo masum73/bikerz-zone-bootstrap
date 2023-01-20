@@ -12,11 +12,4 @@
 footer{
     background-color: black;
     color: white;
-    height: 300px;
-}
-.footer-container{
-    padding-top: 150px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
 }
